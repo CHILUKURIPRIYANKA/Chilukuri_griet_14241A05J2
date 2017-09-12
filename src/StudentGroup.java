@@ -24,20 +24,27 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 	@Override
-	public Student[] getStudents() {
+	public Student[] getStudent() {
+         student.Student[];
 		// Add your implementation here
-		return null;
+		return students;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
 		// Add your implementation here
+                this.students=students;
 	}
 
 	@Override
 	public Student getStudent(int index) {
 		// Add your implementation here
-		return null;
+		if (student==null)throw IllegalArgumentException;
+
+[                 
+
+]
+return null;
 	}
 
 	@Override
